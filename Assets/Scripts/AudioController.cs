@@ -1,51 +1,68 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+
 
 public class AudioController : MonoBehaviour
 {
     public Dropdown audioDropdown;
-
-    //Use these for adding options to the Dropdown List
-    Dropdown.OptionData m_NewData, m_NewData2;
-    //The list of messages for the Dropdown
-    List<Dropdown.OptionData> m_Messages = new List<Dropdown.OptionData>();
-
-    //This is the Dropdown
-    Dropdown m_Dropdown;
-    string m_MyString;
-    int m_Index;
+    public AudioSource audioSource;
 
     public List<AudioClip> audioClips = new List<AudioClip>();
+    public string myPath;
 
     // Start is called before the first frame update
     void Start()
     {
 
-        //audioFiles = getAudioFiles();
-        //char[] delimiterChars = { '/', '\\' };
-        //pickAudio.options.Clear();
-        //foreach (string c in audioFiles)
-        //{
-        //    pickAudio.options.Add(new Dropdown.OptionData() { text = System.IO.Path.GetFileName(c) });
-        //}
-        //private string[] getAudioFiles()
-        //{
-        //    string path = Application.dataPath + "/Resources/Audiofiles";
-        //    string[] filePaths = Directory.GetFiles(@path, "*.ogg");
-        //    foreach (string file in filePaths)
-        //    {
-        //        // Debug.Log(file);
-        //    }
-        //    return filePaths;
-        //}
+        Object[] audioClipFiles = Resources.LoadAll("Audio/Dog", typeof(AudioClip));
+
+
+        foreach (var a in audioClipFiles)
+        {
+            Debug.Log(a.name);
+        }
+
+        for (int i = 0; i < audioClipFiles.Length; i++)
+        {
+            audioClips.Add(audioClipFiles[i] as AudioClip);
+
+        }
+
+        PopulateDropdown(audioDropdown, audioClipFiles);
+
+        audioDropdown.onValueChanged.AddListener(delegate {
+            DropdownValueChanged(audioDropdown);
+        });
+    }
+
+    void PopulateDropdown(Dropdown dropdown, Object[] optionsArray)
+    {
+        List<string> options = new List<string>();
+        foreach (var option in optionsArray)
+        {
+            options.Add(option.name); 
+        }
+        dropdown.ClearOptions();
+        dropdown.AddOptions(options);
+
 
     }
 
-    // Update is called once per frame
-    void Update()
+    void DropdownValueChanged(Dropdown aDropdown)
     {
-        
+        string changedValue = aDropdown.value.ToString();
+
+        Debug.Log("changed " + changedValue);
+
+        Debug.Log("option " + aDropdown.options[aDropdown.value].text);
+
+        string clipName = aDropdown.options[aDropdown.value].text;
+
+        for (int i = 0; i < audioClips.Count; i++)
+        {
+            if (clipName == audioClips[i].name)
+                audioSource.PlayOneShot(audioClips[i]);
+        }
     }
 }
