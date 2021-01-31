@@ -1,0 +1,2695 @@
+fileFormatVersion: 2
+guid: 1be7d8b810203a947a9e557228493e2b
+timeCreated: 1524458218
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: chest
+    100002: ear.L
+    100004: ear.R
+    100006: Eyes.Closed
+    100008: eyes.closed
+    100010: Eyes.Confused
+    100012: eyes.confused
+    100014: Eyes.Focus
+    100016: eyes.focus
+    100018: Eyes.Happy
+    100020: eyes.happy
+    100022: Eyes.Mad
+    100024: eyes.mad
+    100026: Eyes.Open
+    100028: eyes.open
+    100030: Eyes.Sad
+    100032: eyes.sad
+    100034: foot.B.L
+    100036: foot.B.R
+    100038: foot.F.L
+    100040: foot.F.R
+    100042: head
+    100044: leg.lower.B.L
+    100046: leg.lower.B.R
+    100048: leg.lower.F.L
+    100050: leg.lower.F.R
+    100052: leg.upper.B.L
+    100054: leg.upper.B.R
+    100056: leg.upper.F.L
+    100058: leg.upper.F.R
+    100060: mouth
+    100062: RedPanda.HD
+    100064: //RootNode
+    100066: Rig
+    100068: root
+    100070: tail
+    100072: tail.01
+    100074: torso
+    100076: Wolf.HD
+    400000: chest
+    400002: ear.L
+    400004: ear.R
+    400006: Eyes.Closed
+    400008: eyes.closed
+    400010: Eyes.Confused
+    400012: eyes.confused
+    400014: Eyes.Focus
+    400016: eyes.focus
+    400018: Eyes.Happy
+    400020: eyes.happy
+    400022: Eyes.Mad
+    400024: eyes.mad
+    400026: Eyes.Open
+    400028: eyes.open
+    400030: Eyes.Sad
+    400032: eyes.sad
+    400034: foot.B.L
+    400036: foot.B.R
+    400038: foot.F.L
+    400040: foot.F.R
+    400042: head
+    400044: leg.lower.B.L
+    400046: leg.lower.B.R
+    400048: leg.lower.F.L
+    400050: leg.lower.F.R
+    400052: leg.upper.B.L
+    400054: leg.upper.B.R
+    400056: leg.upper.F.L
+    400058: leg.upper.F.R
+    400060: mouth
+    400062: RedPanda.HD
+    400064: //RootNode
+    400066: Rig
+    400068: root
+    400070: tail
+    400072: tail.01
+    400074: torso
+    400076: Wolf.HD
+    4300000: Eyes.Mad
+    4300002: Eyes.Closed
+    4300004: Eyes.Sad
+    4300006: Eyes.Focus
+    4300008: Eyes.Confused
+    4300010: RedPanda.HD
+    4300012: Eyes.Open
+    4300014: Eyes.Happy
+    4300016: Wolf.HD
+    7400000: Eat
+    7400002: Idle_A
+    7400004: Jump_Begin
+    7400006: Run_Forward
+    7400008: Sit_A
+    7400010: Sleep_Begin
+    7400012: Turn_Right_45
+    7400014: Walk_Forward
+    7400016: Idle_B
+    7400018: Jump
+    7400020: Jump_End
+    7400022: Run_Right
+    7400024: Run_Left
+    7400026: Sit_B
+    7400028: Sleep
+    7400030: Sleep_End
+    7400032: Turn_Right_90
+    7400034: Turn_Left_45
+    7400036: Turn_Left_90
+    7400038: Walk_Right
+    7400040: Walk_Left
+    7400042: Walk_Backward
+    7400044: Walk_Backward_Right
+    7400046: Walk_Backward_Left
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Eyes.Closed
+    13700002: Eyes.Confused
+    13700004: Eyes.Focus
+    13700006: Eyes.Happy
+    13700008: Eyes.Mad
+    13700010: Eyes.Open
+    13700012: Eyes.Sad
+    13700014: RedPanda.HD
+    13700016: Wolf.HD
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Eat
+      takeName: Rig|Eat
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_A
+      takeName: Rig|Idle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_B
+      takeName: Rig|Idle
+      firstFrame: 40
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump_Begin
+      takeName: Rig|Jump
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Rig|Jump
+      firstFrame: 6
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump_End
+      takeName: Rig|Jump
+      firstFrame: 25
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run_Forward
+      takeName: Rig|Run
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run_Right
+      takeName: Rig|Run
+      firstFrame: 15
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run_Left
+      takeName: Rig|Run
+      firstFrame: 30
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sit_A
+      takeName: Rig|Sit
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sit_B
+      takeName: Rig|Sit
+      firstFrame: 40
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sleep_Begin
+      takeName: Rig|Sleep
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sleep
+      takeName: Rig|Sleep
+      firstFrame: 20
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sleep_End
+      takeName: Rig|Sleep
+      firstFrame: 30
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turn_Right_45
+      takeName: Rig|Turn
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turn_Right_90
+      takeName: Rig|Turn
+      firstFrame: 30
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turn_Left_45
+      takeName: Rig|Turn
+      firstFrame: 60
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turn_Left_90
+      takeName: Rig|Turn
+      firstFrame: 90
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_Forward
+      takeName: Rig|Walk
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_Right
+      takeName: Rig|Walk
+      firstFrame: 25
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_Left
+      takeName: Rig|Walk
+      firstFrame: 50
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_Backward
+      takeName: Rig|Walk
+      firstFrame: 75
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_Backward_Right
+      takeName: Rig|Walk
+      firstFrame: 100
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_Backward_Left
+      takeName: Rig|Walk
+      firstFrame: 125
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eyes.Closed
+        weight: 1
+      - path: Eyes.Confused
+        weight: 1
+      - path: Eyes.Focus
+        weight: 1
+      - path: Eyes.Happy
+        weight: 1
+      - path: Eyes.Mad
+        weight: 1
+      - path: Eyes.Open
+        weight: 1
+      - path: Eyes.Sad
+        weight: 1
+      - path: RedPanda.HD
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/foot.B.L
+        weight: 1
+      - path: Rig/root/foot.B.R
+        weight: 1
+      - path: Rig/root/foot.F.L
+        weight: 1
+      - path: Rig/root/foot.F.R
+        weight: 1
+      - path: Rig/root/torso
+        weight: 1
+      - path: Rig/root/torso/chest
+        weight: 1
+      - path: Rig/root/torso/chest/head
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.L
+        weight: 1
+      - path: Rig/root/torso/chest/head/ear.R
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.closed
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.confused
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.focus
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.happy
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.mad
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.open
+        weight: 1
+      - path: Rig/root/torso/chest/head/eyes.sad
+        weight: 1
+      - path: Rig/root/torso/chest/head/mouth
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.L/leg.lower.F.L
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R
+        weight: 1
+      - path: Rig/root/torso/chest/leg.upper.F.R/leg.lower.F.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.L/leg.lower.B.L
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R
+        weight: 1
+      - path: Rig/root/torso/leg.upper.B.R/leg.lower.B.R
+        weight: 1
+      - path: Rig/root/torso/tail
+        weight: 1
+      - path: Rig/root/torso/tail/tail.01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
